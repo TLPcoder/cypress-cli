@@ -1,0 +1,22 @@
+{
+    "name": "cypress-commmand",
+    "version": "1.0.0",
+    "description": "An awesome custom global module",
+    "main": "./bin/cypress.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "private": true,
+    "bin": {
+        "cypress": "./bin/cypress.js"
+    },
+    "preferGlobal": true,
+    "author": "ourcodeworld",
+    "license": "MIT",
+    "dependencies": {
+        "commander": "^2.15.1",
+        "inquirer": "^6.0.0",
+        "koa": "^2.5.1",
+        "npm": "^6.1.0"
+    }
+}
