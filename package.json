@@ -14,8 +14,10 @@
     "author": "ourcodeworld",
     "license": "MIT",
     "dependencies": {
+        "chalk": "^2.4.1",
         "commander": "^2.15.1",
         "inquirer": "^6.0.0",
+        "js-beautify": "^1.7.5",
         "koa": "^2.5.1",
         "npm": "^6.1.0"
     }
