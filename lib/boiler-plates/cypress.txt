@@ -1,25 +1,11 @@
 {
     "local": 8080,
     "boot": {},
-    "downStreamMiddleware": [
-        {
-            "routes": ["hello-world"],
-            "middlware": "../middlware/hello-world",
-            "task": []
-        }
-    ],
-    "upStreamMiddleware": [
-        {
-        "routes": ["hello-world"],
-        "middlware": "../middlware/hello-world",
-        "task": []
-        }
-    ],
     "routes": {
-        "./hello-world": {
+        "/hello-world": {
             "methods": ["GET"],
-            "middleware": "../apis/hello-world",
-            "task": []
+            "middlewarePath": "../apis/hello-world",
+            "config": {}
         }
     }
 }

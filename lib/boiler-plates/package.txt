@@ -4,6 +4,7 @@
     "description": {{description}},
     "main": "./server/app.js",
     "scripts": {
+        "start": "node ./server/app.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "private": true,
@@ -11,6 +12,7 @@
     "author": "",
     "license": "MIT",
     "dependencies": {
-        "koa": "^2.5.1"
+        "koa": "^2.5.1",
+        "koa-router": "^7.4.0"
     }
 }
